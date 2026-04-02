@@ -1,6 +1,6 @@
 #include "core/ecs/EntityManager.h"
 
-namespace Trimego::Core::ECS
+namespace Generic::Core::ECS
 {
 std::vector<EntityId>&
 EntityManager::getAddedComponents(ComponentTypeId type)
@@ -61,7 +61,7 @@ EntityManager::updateRemovedComponents(ComponentTypeId type)
         clearRemovedComponents(type);
 }
 
-Trimego::Util::NameAllocator              EntityManager::entityAllocator;
+Generic::Util::NameAllocator              EntityManager::entityAllocator;
 std::unordered_map<EntityId, ArchetypeId> EntityManager::entityArchetypes;
 std::uint64_t                             structuralChangesVersion = 0;
-} // namespace Trimego::Core::ECS
+} // namespace Generic::Core::ECS

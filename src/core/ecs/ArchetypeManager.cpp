@@ -1,6 +1,6 @@
 #include "core/ecs/ArchetypeManager.h"
 
-namespace Trimego::Core::ECS
+namespace Generic::Core::ECS
 {
 ArchetypeId
 ArchetypeManager::addArchetype(ArchetypeSignature& archetypeSignature)
@@ -192,4 +192,4 @@ std::unordered_map<EntityId, ArchetypeId>              ArchetypeManager::entityA
 std::unordered_map<std::uint64_t, Archetype>           ArchetypeManager::archetypes;
 std::unordered_map<ArchetypeSignature, std::uint64_t>  ArchetypeManager::archetypeIds;
 std::uint64_t                                          ArchetypeManager::archetypeCount;
-} // namespace Trimego::Core::ECS
+} // namespace Generic::Core::ECS

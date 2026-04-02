@@ -11,7 +11,7 @@
 using BlockHandle = std::uint64_t;
 using ObjectId    = std::uint64_t;
 
-namespace Trimego::Core
+namespace Generic::Core
 {
 class ObjectPool
 {
@@ -126,6 +126,6 @@ private:
     std::unordered_map<BlockHandle, Util::NameAllocator> nameAllocators;
     std::unordered_map<std::uintptr_t, ObjectId>         objectIds;
 };
-} // namespace Trimego::Core
+} // namespace Generic::Core
 
 #endif /* TRIMEGO_UTIL_OBJECT_POOL_HPP */

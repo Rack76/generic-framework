@@ -1,6 +1,6 @@
 #include "core/ecs/Archetype.h"
 
-namespace Trimego::Core::ECS
+namespace Generic::Core::ECS
 {
 Archetype::Archetype(std::uint64_t entityCapacity, ArchetypeSignature& signature)
     : signature(signature)
@@ -224,4 +224,4 @@ Archetype::writeComponent(EntityId entity, ComponentTypeId type) noexcept
     auto localId = localIds[entity];
     return entities[type][localId];
 }
-} // namespace Trimego::Core::ECS
+} // namespace Generic::Core::ECS

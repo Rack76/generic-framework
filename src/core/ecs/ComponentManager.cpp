@@ -1,7 +1,7 @@
 #include "core/ecs/ComponentManager.h"
 #include <iostream>
 
-namespace Trimego::Core::ECS
+namespace Generic::Core::ECS
 {
 BlockHandle
 ComponentManager::getBlockHandle(ComponentTypeId componentTypeId)
@@ -68,4 +68,4 @@ ComponentManager::returnComponent(ComponentTypeId componentTypeId,
 std::unordered_map<std::uint64_t, std::shared_ptr<ObjectPool>> ComponentManager::pools;
 std::unordered_map<ComponentTypeId, BlockHandle> ComponentManager::blockHandleCounters;
 std::unordered_map<ComponentTypeId, std::string> ComponentManager::typeNames;
-} // namespace Trimego::Core::ECS
+} // namespace Generic::Core::ECS

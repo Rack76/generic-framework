@@ -5,7 +5,7 @@
 #include <vector>
 #include "EntityManager.h"
 
-namespace Trimego::Core::ECS
+namespace Generic::Core::ECS
 {
 using EntityReadProc     = std::function<void(std::uint64_t entity)>;
 using EntityWriteProc    = std::function<void(std::uint64_t entity)>;
@@ -64,6 +64,6 @@ private:
     std::vector<OnComponentAdded>   onComponentAddedCallbacks;
     std::vector<OnComponentRemoved> onComponentRemovedCallbacks;
 };
-} // namespace Trimego::Core::ECS
+} // namespace Generic::Core::ECS
 
 #endif

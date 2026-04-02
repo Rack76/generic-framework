@@ -9,7 +9,7 @@
 #include <vector>
 #include "CTTI.h"
 
-namespace Trimego::Util
+namespace Generic::Util
 {
     class VLUI final //this class is used to represent variable length bitsets.
     {
@@ -372,13 +372,13 @@ namespace Trimego::Util
         std::map<std::uint64_t, std::uint64_t> elements;
         std::vector<std::map<std::uint64_t, std::uint64_t>> bin;
     };
-}  // namespace Trimego
+}  // namespace Generic
 
 template <>
-class std::hash<Trimego::Util::VLUI>
+class std::hash<Generic::Util::VLUI>
 {
 public:
-    std::size_t operator()(const Trimego::Util::VLUI &key) const noexcept
+    std::size_t operator()(const Generic::Util::VLUI &key) const noexcept
     {
         std::uint64_t seed = key.size();
         for (auto it = key.begin(); it != key.end(); it++)

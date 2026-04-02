@@ -2,7 +2,7 @@
 #include <iostream>
 #include <limits>
 
-namespace Trimego::Util
+namespace Generic::Util
 {
 Name
 NameAllocator::getName()
@@ -71,4 +71,4 @@ NameAllocator::data() noexcept
     return allocatedNames;
 }
 
-} // namespace Trimego::Util
+} // namespace Generic::Util

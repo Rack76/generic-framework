@@ -9,10 +9,10 @@
 #include "util/NameAllocator.h"
 #include "util/VLUI.hpp"
 
-namespace Trimego::Core::ECS
+namespace Generic::Core::ECS
 {
-using ArchetypeSignature = Trimego::Util::VLUI;
-using EntityBitset       = Trimego::Util::VLUI;
+using ArchetypeSignature = Generic::Util::VLUI;
+using EntityBitset       = Generic::Util::VLUI;
 using EntityId           = std::uint64_t;
 using EntityLocalId      = std::uint64_t;
 using ComponentTypeId    = std::uint64_t;
@@ -211,12 +211,12 @@ private:
     std::unordered_map<std::uint64_t, std::uint64_t> blockHandles;
     std::unordered_map<ComponentTypeId, void**>      entities;
     std::unordered_map<ComponentTypeId, EntityBitset> entitiesChanged;
-    Trimego::Util::NameAllocator                      localEntityAllocator;
+    Generic::Util::NameAllocator                      localEntityAllocator;
     ArchetypeSignature                                signature;
     EntityBitset                                      entityBitset;
     std::uint64_t                                     entityCount        = 0;
     std::uint64_t                                     dataChangesVersion = 0;
 };
-} // namespace Trimego::Core::ECS
+} // namespace Generic::Core::ECS
 
 #endif

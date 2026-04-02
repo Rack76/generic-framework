@@ -1,7 +1,7 @@
 #ifndef _TRIMEGO_MATH_H
 #define _TRIMEGO_MATH_H
 
-namespace Trimego::Util
+namespace Generic::Util
 {
     #if defined(__x86_64__) || defined(_M_AMD64)
 #include <intrin.h>
