@@ -1,5 +1,5 @@
-#ifndef _TRIMEGO_UTIL_NAME_ALLOCATOR_H
-#define _TRIMEGO_UTIL_NAME_ALLOCATOR_H
+#ifndef _GENERIC_UTIL_NAME_ALLOCATOR_H
+#define _GENERIC_UTIL_NAME_ALLOCATOR_H
 
 #include <map>
 
@@ -36,4 +36,4 @@ private:
 };
 } // namespace Generic::Util
 
-#endif /* TRIMEGO_UTIL_NAME_ALLOCATOR_HPP */
+#endif /* GENERIC_UTIL_NAME_ALLOCATOR_HPP */

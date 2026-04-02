@@ -1,5 +1,5 @@
-#ifndef _TRIMEGO_SYSTEM_H
-#define _TRIMEGO_SYSTEM_H
+#ifndef _GENERIC_SYSTEM_H
+#define _GENERIC_SYSTEM_H
 
 #include <functional>
 #include <vector>

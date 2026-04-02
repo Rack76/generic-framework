@@ -1,5 +1,5 @@
-#ifndef _TRIMEGO_COMPONENT_MANAGER_H_
-#define _TRIMEGO_COMPONENT_MANAGER_H_
+#ifndef _GENERIC_COMPONENT_MANAGER_H_
+#define _GENERIC_COMPONENT_MANAGER_H_
 
 #include <memory>
 #include <unordered_map>

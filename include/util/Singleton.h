@@ -1,5 +1,5 @@
-#ifndef _TRIMEGO_SINGLETON_H_
-#define _TRIMEGO_SINGLETON_H_
+#ifndef _GENERIC_SINGLETON_H_
+#define _GENERIC_SINGLETON_H_
 
 namespace Generic::Util
 {

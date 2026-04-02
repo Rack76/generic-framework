@@ -1,5 +1,5 @@
-#ifndef _TRIMEGO_CTTI_H_
-#define _TRIMEGO_CTTI_H_
+#ifndef _GENERIC_CTTI_H_
+#define _GENERIC_CTTI_H_
 
 #include <cassert>
 #include <cstdint>

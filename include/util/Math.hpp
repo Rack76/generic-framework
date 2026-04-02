@@ -1,5 +1,5 @@
-#ifndef _TRIMEGO_MATH_H
-#define _TRIMEGO_MATH_H
+#ifndef _GENERIC_MATH_H
+#define _GENERIC_MATH_H
 
 namespace Generic::Util
 {
