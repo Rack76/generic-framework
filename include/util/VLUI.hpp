@@ -1,5 +1,5 @@
-#ifndef _TRIMEGO_UTILS_VLUI_H
-#define _TRIMEGO_UTILS_VLUI_H
+#ifndef _GENERIC_UTILS_VLUI_H
+#define _GENERIC_UTILS_VLUI_H
 
 #include "Math.hpp"
 #include <map>

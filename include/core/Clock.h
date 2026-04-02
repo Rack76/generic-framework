@@ -1,5 +1,5 @@
-#ifndef _TRIMEGO_CLOCK_H
-#define _TRIMEGO_CLOCK_H
+#ifndef _GENERIC_CLOCK_H
+#define _GENERIC_CLOCK_H
 
 #include "util/Singleton.h"
 

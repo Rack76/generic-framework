@@ -1,5 +1,5 @@
-#ifndef _TRIMEGO_UTIL_OBJECT_POOL_H
-#define _TRIMEGO_UTIL_OBJECT_POOL_H
+#ifndef _GENERIC_UTIL_OBJECT_POOL_H
+#define _GENERIC_UTIL_OBJECT_POOL_H
 
 #include <cstring>
 #include <iostream>
@@ -128,4 +128,4 @@ private:
 };
 } // namespace Generic::Core
 
-#endif /* TRIMEGO_UTIL_OBJECT_POOL_HPP */
+#endif /* GENERIC_UTIL_OBJECT_POOL_HPP */

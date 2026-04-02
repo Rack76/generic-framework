@@ -1,5 +1,5 @@
-#ifndef _TRIMEGO_ENTITY_MANAGER_H_
-#define _TRIMEGO_ENTITY_MANAGER_H_
+#ifndef _GENERIC_ENTITY_MANAGER_H_
+#define _GENERIC_ENTITY_MANAGER_H_
 
 #include <cstdint>
 #include "ArchetypeManager.h"

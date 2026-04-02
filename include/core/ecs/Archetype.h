@@ -1,5 +1,5 @@
-#ifndef _TRIMEGO_ARCHETYPE_H_
-#define _TRIMEGO_ARCHETYPE_H_
+#ifndef _GENERIC_ARCHETYPE_H_
+#define _GENERIC_ARCHETYPE_H_
 
 #include <cstdint>
 #include <unordered_map>
