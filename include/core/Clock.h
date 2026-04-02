@@ -3,13 +3,13 @@
 
 #include "util/Singleton.h"
 
-namespace Trimego::Util
+namespace Generic::Util
 {
 class Clock final : public Singleton<Clock>
 {
 public:
     unsigned long count = 0;
 };
-} // namespace Trimego::Util
+} // namespace Generic::Util
 
 #endif

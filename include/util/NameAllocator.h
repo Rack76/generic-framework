@@ -5,7 +5,7 @@
 
 #include <cstdint>
 
-namespace Trimego::Util
+namespace Generic::Util
 {
 using Name   = std::uint64_t;
 using Unused = int;
@@ -34,6 +34,6 @@ private:
     std::map<Name, Unused> restoredNames;
     std::map<Name, Unused> allocatedNames;
 };
-} // namespace Trimego::Util
+} // namespace Generic::Util
 
 #endif /* TRIMEGO_UTIL_NAME_ALLOCATOR_HPP */

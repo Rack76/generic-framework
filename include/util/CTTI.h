@@ -7,7 +7,7 @@
 #include <string_view>
 #include <unordered_map>
 
-namespace Trimego::Util
+namespace Generic::Util
 {
 template <typename T>
 [[nodiscard]] constexpr std::string_view
@@ -71,6 +71,6 @@ checkTypeIdCollision() noexcept
     const std::string_view typeNames[sizeof...(Types)] = {typeName<Types>()...};
     checkTypeIdCollision(typeNames);
 }
-} // namespace Trimego::Util
+} // namespace Generic::Util
 
 #endif

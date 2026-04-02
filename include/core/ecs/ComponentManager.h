@@ -10,7 +10,7 @@ using BlockHandle     = std::uint64_t;
 using ArchetypeId     = std::uint64_t;
 using ComponentTypeId = std::uint64_t;
 
-namespace Trimego::Core::ECS
+namespace Generic::Core::ECS
 {
 class ComponentManager
 {
@@ -77,6 +77,6 @@ private:
     static std::unordered_map<ComponentTypeId, BlockHandle>                 blockHandleCounters;
     static std::unordered_map<ComponentTypeId, std::string>                 typeNames;
 };
-} // namespace Trimego::Core::ECS
+} // namespace Generic::Core::ECS
 
 #endif

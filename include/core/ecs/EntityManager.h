@@ -8,7 +8,7 @@
 
 using EntityId = std::uint64_t;
 
-namespace Trimego::Core::ECS
+namespace Generic::Core::ECS
 {
 class EntityManager
 {
@@ -233,7 +233,7 @@ private:
 
     static void clearRemovedComponents(ComponentTypeId type);
 
-    static Trimego::Util::NameAllocator                               entityAllocator;
+    static Generic::Util::NameAllocator                               entityAllocator;
     static std::unordered_map<EntityId, ArchetypeId>                  entityArchetypes;
     static std::unordered_map<ComponentTypeId, std::uint64_t>         addedComponentsVersion;
     static std::unordered_map<ComponentTypeId, std::uint64_t>         removedComponentsVersion;
@@ -241,6 +241,6 @@ private:
     static std::unordered_map<ComponentTypeId, std::vector<EntityId>> componentsRemoved;
     static std::vector<std::vector<EntityId>>                         bin;
 };
-} // namespace Trimego::Core::ECS
+} // namespace Generic::Core::ECS
 
 #endif

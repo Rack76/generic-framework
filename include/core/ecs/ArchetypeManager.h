@@ -8,9 +8,9 @@
 
 using EntityId          = std::uint64_t;
 using ArchetypeId       = std::uint64_t;
-using ArchetypeIdBitset = Trimego::Util::VLUI;
+using ArchetypeIdBitset = Generic::Util::VLUI;
 
-namespace Trimego::Core::ECS
+namespace Generic::Core::ECS
 {
 class ArchetypeManager
 {
@@ -187,6 +187,6 @@ private:
     static std::unordered_map<ArchetypeSignature, std::uint64_t>  archetypeIds;
     static std::uint64_t                                          archetypeCount;
 };
-} // namespace Trimego::Core::ECS
+} // namespace Generic::Core::ECS
 
 #endif

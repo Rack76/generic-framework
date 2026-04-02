@@ -1,7 +1,7 @@
 #ifndef _TRIMEGO_SINGLETON_H_
 #define _TRIMEGO_SINGLETON_H_
 
-namespace Trimego::Util
+namespace Generic::Util
 {
 
 template <typename T>
@@ -22,6 +22,6 @@ public:
     }
 };
 
-} // namespace Trimego::Util
+} // namespace Generic::Util
 
 #endif

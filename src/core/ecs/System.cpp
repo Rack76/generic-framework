@@ -1,6 +1,6 @@
 #include "core/ecs/System.h"
 
-namespace Trimego::Core::ECS
+namespace Generic::Core::ECS
 {
 void
 System::addReadBatch(EntityReadProc                         entityReadProc,
@@ -94,4 +94,4 @@ System::run() noexcept
         batch();
     }
 }
-} // namespace Trimego::Core::ECS
+} // namespace Generic::Core::ECS
